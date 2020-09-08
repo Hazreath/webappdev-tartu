@@ -75,7 +75,11 @@
     
                 <td>1</td>
     
-                <td>Agile software development</td>
+                <td>
+                    <a href="https://courses.cs.ut.ee/2020/ASD/fall">
+                        Agile software development
+                    </a>
+                </td>
     
                 <td>Semester 1 fall</td>
     
@@ -87,7 +91,11 @@
     
                 <td>2</td>
     
-                <td>System modeling</td>
+                <td>
+                    <a href="https://courses.cs.ut.ee/2020/sm/fall">
+                        System modelling
+                    </a>
+                </td>
     
                 <td>Semester 1 spring</td>
     
@@ -99,7 +107,12 @@
     
                 <td>3</td>
     
-                <td>Object-oriented programming</td>
+                <td>
+                    <!-- Can't find the link to this course -->
+                    <a href="https://courses.cs.ut.ee/2020/SE2020/fall">
+                        Object-oriented programming
+                    </a>
+                </td>
     
                 <td>Semester 2 spring</td>
     
@@ -111,7 +124,13 @@
     
                 <td>4</td>
     
-                <td>Estonian language Level A2</td>
+                <td>
+                    <!-- SAME -->
+                    <a href="https://courses.cs.ut.ee/2020/ba/fall">
+                        Estonian language Level A2
+                    </a>
+                    
+                </td>
     
                 <td>Semester 2 fall</td>
     
@@ -120,7 +139,30 @@
             </tr>
     
             </tbody>
-    
+            <tfoot>
+                <tr>
+                    <td colspan="4">Add new course</td>
+                </tr>
+                <tr>
+                    <form>
+                        <fieldset>
+                            <label for="c_title">Course title</label>
+                            <input name="c_title" type="text" placeholder="Course title...">
+                            <label for="c_semester">Semester</label>
+                            <select name="c_semester">
+                                <option value="Semester 1 fall">Semester 1 fall</option>
+                                <option value="Semester 1 spring">Semester 1 spring</option>
+                                <option value="Semester 2 fall">Semester 2 fall</option>
+                                <option value="Semester 2 spring">Semester 2 spring</option>
+                            </select>
+                            <label for="c_grade">Grade</label>
+                            <input type="number" c_grade" min="0" max="100"/>
+                            
+                        </fieldset>
+                        
+                    </form>
+                </tr>
+            </tfoot>
         </table>
     
     </section>
@@ -130,13 +172,13 @@
     
             <li>
     
-                <a href="https://ois2.ut.ee/">OIS</a>
+                <a href="https://ois2.ut.ee/" target="_blank">OIS</a>
     
             </li>
     
             <li>
     
-                <a href="https://courses.cs.ut.ee/">Courses</a>
+                <a href="https://courses.cs.ut.ee/" target="_blank">Courses</a>
     
             </li>
     
